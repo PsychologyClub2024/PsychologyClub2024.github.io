@@ -1,11 +1,17 @@
 h2.hook{
     margin-top: 150px;
     font-size: 200%;
+    font-weight:bold;
+    text-align:center;
 }
 #logo{
-	width: 15%;
+    min-width: 8%;
+	max-width: 15%;
 	position: fixed;
 	top: 0%;
+	margin-left: auto;
+	margin-top: 8px;
+	z-index: 10;
 	}
 div.mynav {
     display: grid;
@@ -16,9 +22,11 @@ div.mynav {
     position: fixed;
     top: 10%;
     left: 50%;
-    transform: translate(-40%, -50%);
+    transform: translate(-50%, -50%);
     padding: 10px;
-    width: 70%;
+    min-width: 50%;
+    max-width: 80%;
+    z-index: 10;
 }
 .mynav > div {
     border-style: ridge;
@@ -35,13 +43,16 @@ a.sectors{
 
 div.club_descr{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
     margin: 0 auto;
     background-color: lightgrey;
     text-align: center;
-    width: 70%;
+    width: 75%;
     height: 80%;
+    border-style: solid;
+    border-color: brown;
+    border-width: 5px;
     }
 div.pics1{
     display: grid;
@@ -55,13 +66,16 @@ div.box2{
     place-items: center;}
 div.about{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
     margin: 0 auto;
     background-color: lightgrey;
     text-align: center;
-    width: 70%;
-    margin-top: 20px;}
+    width: 75%;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: brown;
+    border-width: 5px;}
 #Calendar{
     width: 80%;
     height: 98%;
@@ -77,84 +91,3 @@ div.about{
     left: 80%;
     margin: 20px;
     }
-@media screen and (max-width: 1200px) {
-    h2.hook{
-        margin-top: 170px;
-        font-size: 180%;}
-    div.mynav{
-        width: 70%;
-        left: 50%;
-    }
-    #logo{
-        width: 150px;
-    }
-    a.sectors{
-        font-size: 0.75em;}
-}
-@media screen and (max-width: 1000px) {
-    h2.hook{
-        margin-top: 180px;
-        font-size: 175%;}
-    div.mynav{
-        width: 70%;
-    }
-    #logo{
-        width: 125px;
-    }
-}
-@media screen and (max-width: 800px) {
-    h2.hook{
-        margin-top: 200px;
-        font-size: 150%;}
-    div.mynav{
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    h2.hook{
-        margin-top: 250px;
-        font-size: 150%;}
-    div.mynav{
-        width: 50%;
-        left: 55%;
-    }
-    a.sectors{
-        font-size: 0.6em;}
-}
-
-.Events > div {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(600px, 1fr));
-}
-
-.PrevEvents > div {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(600px, 1fr));
-}
-div.Events {
-    background-color: transparent;
-    margin-bottom: 5px;
-}
-.PrevEvents {
-    margin-top: 10px;
-}
-.list {
-    background-color: darkgrey;
-    border: solid;
-    border-width: 8px;
-    border-color: brown;
-    margin: 10px;
-    place-items: center;
-}
-
-.list1 {
-    background-color: lightgrey;
-    border: dashed;
-    border-width: 8px;
-    border-color: brown;
-    margin: 10px;
-    padding: 20px;
-}
