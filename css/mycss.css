@@ -9,7 +9,7 @@ body{
 	color: brown;
 	background-color: lightgrey;
 	background-image: url("../images/graybackground.jpg");
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-attachment: fixed;}
 p{
 	font-family: Arial;
@@ -17,9 +17,71 @@ p{
 	font-size: 20px;
 	/*background-color: white;*/
 	text-align: center;
+	margin: 10px;
 	}
+
 li{
 	color: black;}
 figcaption{
 	text-align: center;
+	}
+div.info{
+	display:grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 50% 50%;
+	width: 75%;
+	background-color: rgba(211,211,211,0.90);
+	transform:translateY(130px);
+	margin:0 auto;
+	text-align: center;
+	border-style:dashed;
+	border-width:5px;
+	border-color:brown;
+	place-items: center;
+	margin-bottom: 20px;
+	}
+div.info2{
+	display:grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 50% 50%;
+	width: 75%;
+	background-color: rgba(211,211,211,0.90);
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	text-align: center;
+	border-style:dashed;
+	border-width:5px;
+	border-color:brown;
+	place-items: center;
+	margin-bottom: 20px;
+	}	
+div.info1{
+	display:grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 50% 50%;
+	width: 75%;
+	background-color: rgba(211,211,211,0.90);
+	transform:translateY(20px);
+	margin:0 auto;
+	text-align: center;
+	border-style:dashed;
+	border-width:5px;
+	border-color:brown;
+	place-items: center;
+	margin-bottom: 20px;
+	}
+a.infolinks{
+	display: inline;
+	font-size: 12pt;
+	font-weight:bold;
+	margin: 5px;
+	color: black;
+	}
+a.infolinks:hover{
+	color:red;
+	font-weight:bold;}
+h3.endinfo{
+	font-size: 14pt;
+	color: brown;
 	}
