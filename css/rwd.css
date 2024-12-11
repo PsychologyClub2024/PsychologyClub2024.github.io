@@ -1,0 +1,47 @@
+@media screen and (max-width: 1200px) and (orientation: portrait) {
+    h2.hook{
+        margin-top: 200px;
+        font-size: 150%;}
+    div.mynav{
+        grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+        transform: translate(-50%, -20%);
+    }
+    a.sectors{
+        font-size: 0.65em;
+    }
+    p{
+        font-size: 1em;
+    }
+   div.box2{
+        display:none;
+    }
+    a.infolinks{
+        display:block;
+    }
+    div.intro2{
+        transform: translateY(190px);
+    }
+    #poster1,#students_pres2,#students_pres4, #PH2022, #student, #GAC, #trivnight{
+        display:none;
+    }
+    div.posters{
+        grid-template-columns: repeat(auto-fit, minmax(70%, 1fr));
+    }
+   #poster2, #poster3{
+	    width: 70%;}
+    #students_pres1,#students_pres3{
+	    width: 70%;}
+	div.researchpics{
+	    display: grid;
+	    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(50%, 1fr));}
+    div.outreach-container{
+	    display: grid;
+	    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+   }
+   .OR{
+	    font-size: 1em;}
+}
+
