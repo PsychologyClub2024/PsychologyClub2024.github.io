@@ -15,8 +15,8 @@ h2.hook{
 	}
 div.mynav {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(70px, 1fr));
     background-color: darkgrey;
     text-align: center;
     position: fixed;
@@ -36,10 +36,6 @@ div.mynav {
     padding: 10px;
     margin: 10px;
 }
-a.sectors{
-    font-size: 0.9em;
-    color: black;
-	font-size: 18px;}
 
 div.club_descr{
     display:grid;
