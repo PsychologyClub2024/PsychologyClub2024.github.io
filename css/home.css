@@ -20,10 +20,7 @@ div.mynav {
     background-color: darkgrey;
     text-align: center;
     position: fixed;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
+    transform: translate(50%, -120%);
     min-width: 50%;
     max-width: 80%;
     z-index: 10;
