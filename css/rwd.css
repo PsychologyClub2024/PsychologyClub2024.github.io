@@ -1,29 +1,31 @@
-@media screen and (max-width: 1200px) and (orientation: landscape) {
+@media screen and (orientation: landscape) {
     h2.hook{
-        margin-top: 200px;
+        margin-top: 175px;
         font-size: 150%;}
+    #resourcesh2{
+        margin-top:150px;
+    }
+   div.mynav{
+        min-width: 50%;
+        max-width: 80%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    #poster1,#students_pres2,#students_pres4, #PH2022, #student, .GAC, #trivnight{
+        display:none;
+    }
+    div.box2{
+        display:none;
+    }
     div.mynav{
-        grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
-        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
-        transform: translate(-50%, -20%);
+        /*transform: translate(-50%, -30%);*/
+        max-width: 60%;
     }
     a.sectors{
-        font-size: 0.65em;
-    }
-    p{
-        font-size: 1em;
-    }
-   div.box2{
-        display:none;
-    }
-    a.infolinks{
-        display:block;
+        font-size: 65%;
     }
     div.intro2{
-        transform: translateY(190px);
-    }
-    #poster1,#students_pres2,#students_pres4, #PH2022, #student, #GAC, #trivnight{
-        display:none;
+        transform: translateY(150px);
     }
     div.posters{
         grid-template-columns: repeat(auto-fit, minmax(70%, 1fr));
@@ -43,22 +45,43 @@
    }
    .OR{
 	    font-size: 1em;}
+	a.infolinks{
+        display:block;
+        transform:translateY(-10px);
+    }
+}
+@media only screen and (max-width: 1000px){
+     div.mynav{
+        transform: translate(-50%, -35%);
+    }
 }
 @media only screen and (orientation: portrait){
-    p{
-        font-size: 1em;
+    div.translation{
+       transform:translateY(50px);
     }
+    /*div.club_descr{
+        font-size: 21pt;
+    }*/
      a.infolinks{
         display:block;
+        transform:translateY(-10px);
     }
      div.box2{
         display:none;
     }
-    #poster1,#students_pres2,#students_pres4, #PH2022, #student, #GAC, #trivnight{
+    #poster1,#students_pres2,#students_pres4, #PH2022, #student, .GAC, #trivnight{
         display:none;
     }
-    div.mynav{
-        transform: translate(-50%, -100%);
-    }
+    /*div.mynav{
+        top: 5%;
+    }*/
+    div.outreach-container{
+	    display: grid;
+	    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+   }
+   h2.hook{
+        font-size:125%;
+   }
 }
 
