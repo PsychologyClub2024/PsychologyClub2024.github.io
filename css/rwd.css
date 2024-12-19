@@ -5,10 +5,6 @@
     #resourcesh2{
         margin-top:150px;
     }
-   div.mynav{
-        min-width: 50%;
-        max-width: 80%;
-    }
 }
 @media only screen and (max-width: 1200px){
     #poster1,#students_pres2,#students_pres4, #PH2022, #student, .GAC, #trivnight{
@@ -16,10 +12,6 @@
     }
     div.box2{
         display:none;
-    }
-    div.mynav{
-        /*transform: translate(-50%, -30%);*/
-        max-width: 60%;
     }
     a.sectors{
         font-size: 65%;
@@ -50,15 +42,10 @@
         transform:translateY(-10px);
     }
 }
-@media only screen and (max-width: 1000px){
-     div.mynav{
-        transform: translate(-50%, 20%);
-    }
-}
+/*@media only screen and (max-width: 1000px){
+
+ }*/
 @media only screen and (orientation: portrait){
-    /*div.mynav{
-        transform: translate(-50%, -110%);
-    }*/
     div.translation{
        transform:translateY(50px);
     }
