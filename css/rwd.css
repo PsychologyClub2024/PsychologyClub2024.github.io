@@ -51,14 +51,14 @@
     }
 }
 @media only screen and (max-width: 1000px){
-     div.mynav{
+     /*div.mynav{
         transform: translate(-50%, -35%);
-    }
+    }*/
 }
 @media only screen and (orientation: portrait){
-    div.mynav{
+    /*div.mynav{
         transform: translate(-50%, -110%);
-    }
+    }*/
     div.translation{
        transform:translateY(50px);
     }
