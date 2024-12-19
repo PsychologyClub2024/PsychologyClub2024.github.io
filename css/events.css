@@ -1,5 +1,7 @@
 h3, h2{
 	margin: 10px;}
+li{
+	color: black;}
 div.intro2{
 	border-style: solid;
 	border-width: 5px;
@@ -85,7 +87,7 @@ div.covolpics{
 	grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
     place-items: center;}
-#GAC, #denver{
+.GAC, .denver{
 	width: 80%;
 	margin: 10px;}
 	
