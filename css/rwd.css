@@ -72,9 +72,6 @@
     #poster1,#students_pres2,#students_pres4, #PH2022, #student, .GAC, #trivnight{
         display:none;
     }
-    div.mynav{
-        transform: translateY(80px);
-    }
     div.outreach-container{
 	    display: grid;
 	    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
